@@ -17,11 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from user_app import views
+from snap_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     
     path('api/user_app/', include("user_app.urls")),
+    path('api/snap_app/', include("snap_app.urls")),
    # path('api/user_app/', views.user_list)
 ]

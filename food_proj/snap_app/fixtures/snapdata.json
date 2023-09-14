@@ -1,0 +1,2661 @@
+[
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Wyoming Card"
+            ],
+            "snapdata": [
+                0
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Wyoming",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://dfsweb.wyo.gov/economic-assistance/snap",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                1
+            ],
+            "applications": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "English",
+                "Spanish"
+            ],
+            "Link": [
+                "https://drive.google.com/file/d/1r9Supds1XkerGakMvZVUjK5hCyhfM-co/view",
+                "https://drive.google.com/file/d/1VsvlJfjAM7EVvyrC6HD8RcetDQTXCYnE/view"
+            ],
+            "snapdata": [
+                0
+            ],
+            "statesnapprogram": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Virginia EBT Card"
+            ],
+            "snapdata": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Virginia",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.dss.virginia.gov/benefit/snap.cgi",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                4
+            ],
+            "applications": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://commonhelp.virginia.gov/access/"
+            ],
+            "snapdata": [
+                3
+            ],
+            "statesnapprogram": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Basic Food",
+                "Washington EBT QUEST Card"
+            ],
+            "snapdata": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Washington",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.dshs.wa.gov/esa/community-services-offices/basic-food",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                7
+            ],
+            "applications": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "Version in 10 Languages"
+            ],
+            "Link": [
+                "https://www.washingtonconnection.org",
+                "https://www.dshs.wa.gov/esa/community-services-offices/basic-food"
+            ],
+            "snapdata": [
+                6
+            ],
+            "statesnapprogram": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Mountain State Card"
+            ],
+            "snapdata": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "West Virginia",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.dhhr.wv.gov/bcf/Services/familyassistance/Pages/Supplemental-Nutritional-Assistance-Program-%28Former-Food-Stamp-Program%29.aspx",
+            "StateEBTInfo": "https://dhhr.wv.gov/ebt/Pages/default.aspx",
+            "state_snap_program_name": [
+                10
+            ],
+            "applications": [
+                11
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://www.wvinroads.org/selfservice/"
+            ],
+            "snapdata": [
+                9
+            ],
+            "statesnapprogram": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "FoodShare",
+                "Wisconsin QUEST card"
+            ],
+            "snapdata": [
+                12
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Wisconsin",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.dhs.wisconsin.gov/foodshare/index.htm",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                13
+            ],
+            "applications": [
+                14
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://access.wisconsin.gov/"
+            ],
+            "snapdata": [
+                12
+            ],
+            "statesnapprogram": [
+                13
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Stamps",
+                "Horizon Card"
+            ],
+            "snapdata": [
+                15
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Utah",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://jobs.utah.gov/customereducation/services/foodstamps/index.html",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                16
+            ],
+            "applications": [
+                17
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://jobs.utah.gov/mycase/"
+            ],
+            "snapdata": [
+                15
+            ],
+            "statesnapprogram": [
+                16
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "3SquaresVT",
+                "Vermont EBT Card"
+            ],
+            "snapdata": [
+                18
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Vermont",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://dcf.vermont.gov/benefits/3SquaresVT",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                19
+            ],
+            "applications": [
+                20
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "http://www.mybenefits.vt.gov/"
+            ],
+            "snapdata": [
+                18
+            ],
+            "statesnapprogram": [
+                19
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Virgin Islands EBT Card"
+            ],
+            "snapdata": [
+                21
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Virgin Islands",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.dhs.gov.vi/index.php/family-assistance-programs/",
+            "StateEBTInfo": "866-884-2868",
+            "state_snap_program_name": [
+                22
+            ],
+            "applications": [
+                23
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "English",
+                "Spanish"
+            ],
+            "Link": [
+                "http://www.dhs.gov.vi/wp-content/uploads/2023/05/DFA_CLIENT-PACKET-for-SNAP-Application_050123.pdf",
+                "http://w3.dhs.gov.vi/wp-content/uploads/2023/02/DFA_SNAP-Cash-Application-SPANISH_Updated.pdf"
+            ],
+            "snapdata": [
+                21
+            ],
+            "statesnapprogram": [
+                22
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "South Carolina EBT Card"
+            ],
+            "snapdata": [
+                24
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "South Carolina",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://dss.sc.gov/assistance-programs/snap/",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                25
+            ],
+            "applications": [
+                26
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://benefitsportal.dss.sc.gov/#/login"
+            ],
+            "snapdata": [
+                24
+            ],
+            "statesnapprogram": [
+                25
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "South Dakota EBT Card"
+            ],
+            "snapdata": [
+                27
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "South Dakota",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://dss.sd.gov/economicassistance/snap/",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                28
+            ],
+            "applications": [
+                29
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://apps.sd.gov/ss36snap/web/Portal/Default.aspx"
+            ],
+            "snapdata": [
+                27
+            ],
+            "statesnapprogram": [
+                28
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Tennessee EBT Card"
+            ],
+            "snapdata": [
+                30
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Tennessee",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.tennessee.gov/humanservices/topic/supplemental-nutrition-assistance-program-snap",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                31
+            ],
+            "applications": [
+                32
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://faonlineapp.dhs.tn.gov/"
+            ],
+            "snapdata": [
+                30
+            ],
+            "statesnapprogram": [
+                31
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Lone Star Card"
+            ],
+            "snapdata": [
+                33
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Texas",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.hhs.texas.gov/services/food/snap-food-benefits",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                34
+            ],
+            "applications": [
+                35
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://www.yourtexasbenefits.com/Learn/Home#tab-apply"
+            ],
+            "snapdata": [
+                33
+            ],
+            "statesnapprogram": [
+                34
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Pennsylvania Access Card"
+            ],
+            "snapdata": [
+                36
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Pennsylvania",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.dhs.pa.gov/Services/Assistance/Pages/SNAP.aspx",
+            "StateEBTInfo": "https://www.connectebt.com/paebtclient/index.jsp",
+            "state_snap_program_name": [
+                37
+            ],
+            "applications": [
+                38
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://www.compass.state.pa.us/"
+            ],
+            "snapdata": [
+                36
+            ],
+            "statesnapprogram": [
+                37
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Nutrition Assistance Program",
+                "Puerto Rico EBT Card"
+            ],
+            "snapdata": [
+                39
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Puerto Rico",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://servicios.adsef.pr.gov/views/programa/programaAsistenciaNutricional.aspx",
+            "StateEBTInfo": "https://www.ebtpr.com",
+            "state_snap_program_name": [
+                40
+            ],
+            "applications": [
+                41
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "ADSEF"
+            ],
+            "Link": [
+                "https://servicios.adsef.pr.gov/views/programa/programaAsistenciaNutricional.aspx"
+            ],
+            "snapdata": [
+                39
+            ],
+            "statesnapprogram": [
+                40
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Rhode Island EBT Card"
+            ],
+            "snapdata": [
+                42
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Rhode Island",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.dhs.ri.gov/Programs/SNAPApplyNow.php",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                43
+            ],
+            "applications": [
+                44
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://healthyrhode.ri.gov/"
+            ],
+            "snapdata": [
+                42
+            ],
+            "statesnapprogram": [
+                43
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "North Dakota EBT Card"
+            ],
+            "snapdata": [
+                45
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "North Dakota",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.hhs.nd.gov/applyforhelp/snap",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                46
+            ],
+            "applications": [
+                47
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://www.applyforhelp.nd.gov/"
+            ],
+            "snapdata": [
+                45
+            ],
+            "statesnapprogram": [
+                46
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Ohio Direction Card"
+            ],
+            "snapdata": [
+                48
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Ohio",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://jfs.ohio.gov/ocomm_root/1000OurServices.stm#FA-2",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                49
+            ],
+            "applications": [
+                50
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "English",
+                "Spanish",
+                "Versions in 14 Languages"
+            ],
+            "Link": [
+                "https://benefits.ohio.gov/",
+                "http://www.odjfs.state.oh.us/forms/file.asp?id=1429&type=application/pdf",
+                "http://www.odjfs.state.oh.us/forms/file.asp?id=1431&type=application/pdf",
+                "http://www.odjfs.state.oh.us/forms/findform.asp?formnum=07200"
+            ],
+            "snapdata": [
+                48
+            ],
+            "statesnapprogram": [
+                49
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Oklahoma Access Card"
+            ],
+            "snapdata": [
+                51
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Oklahoma",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://oklahoma.gov/okdhs/services/snap.html",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                52
+            ],
+            "applications": [
+                53
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://www.okdhslive.org/"
+            ],
+            "snapdata": [
+                51
+            ],
+            "statesnapprogram": [
+                52
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Oregon Trail Card"
+            ],
+            "snapdata": [
+                54
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Oregon",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.oregon.gov/DHS/ASSISTANCE/FOOD-BENEFITS/pages/index.aspx",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                55
+            ],
+            "applications": [
+                56
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "Other Languages"
+            ],
+            "Link": [
+                "https://apps.state.or.us/onlineApplication/",
+                "http://www.oregon.gov/dhs/assistance/food-benefits/Pages/eligibility-apply.aspx"
+            ],
+            "snapdata": [
+                54
+            ],
+            "statesnapprogram": [
+                55
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Common Benefit Identification Card (CBIC)"
+            ],
+            "snapdata": [
+                57
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "New York",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://otda.ny.gov/programs/snap/",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                58
+            ],
+            "applications": [
+                59
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "Application in 8 Languages",
+                "Applications for the Blind/Visually Impaired"
+            ],
+            "Link": [
+                "https://mybenefits.ny.gov/",
+                "http://otda.ny.gov/programs/applications/",
+                "http://otda.ny.gov/programs/applications/alternative-formats.asp"
+            ],
+            "snapdata": [
+                57
+            ],
+            "statesnapprogram": [
+                58
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Common Benefit Identification Card (CBIC)"
+            ],
+            "snapdata": [
+                60
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "New York City",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www1.nyc.gov/site/hra/help/snap-benefits-food-program.page",
+            "StateEBTInfo": "error 3",
+            "state_snap_program_name": [
+                61
+            ],
+            "applications": [
+                62
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "Application in 8 Languages",
+                "Applications for the Blind/Visually Impaired"
+            ],
+            "Link": [
+                "https://mybenefits.ny.gov/",
+                "http://otda.ny.gov/programs/applications/",
+                "http://otda.ny.gov/programs/applications/alternative-formats.asp"
+            ],
+            "snapdata": [
+                60
+            ],
+            "statesnapprogram": [
+                61
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food and Nutrition Services",
+                "North Carolina EBT Card"
+            ],
+            "snapdata": [
+                63
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "North Carolina",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.ncdhhs.gov/assistance/low-income-services/food-nutrition-services-food-stamps",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                64
+            ],
+            "applications": [
+                65
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://epass.nc.gov/"
+            ],
+            "snapdata": [
+                63
+            ],
+            "statesnapprogram": [
+                64
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Nevada EBT Card"
+            ],
+            "snapdata": [
+                66
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Nevada",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://dwss.nv.gov/SNAP/Food/",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                67
+            ],
+            "applications": [
+                68
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://dwss.nv.gov/TANF/Access_Nevada/"
+            ],
+            "snapdata": [
+                66
+            ],
+            "statesnapprogram": [
+                67
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "New Hampshire EBT Card"
+            ],
+            "snapdata": [
+                69
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "New Hampshire",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.dhhs.nh.gov/programs-services/food-meals-assistance/supplemental-nutrition-assistance-program-snap",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                70
+            ],
+            "applications": [
+                71
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://nheasy.nh.gov/"
+            ],
+            "snapdata": [
+                69
+            ],
+            "statesnapprogram": [
+                70
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Families First EBT Card"
+            ],
+            "snapdata": [
+                72
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "New Jersey",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.nj.gov/humanservices/dfd/programs/njsnap/",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                73
+            ],
+            "applications": [
+                74
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "Application in 17 Languages"
+            ],
+            "Link": [
+                "https://mynjhelps.gov/home",
+                "https://www.nj.gov/humanservices/njsnap/apply/ways/"
+            ],
+            "snapdata": [
+                72
+            ],
+            "statesnapprogram": [
+                73
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "New Mexico EBT Card"
+            ],
+            "snapdata": [
+                75
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "New Mexico",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.hsd.state.nm.us/lookingforassistance/supplemental_nutrition_assistance_program__snap/",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                76
+            ],
+            "applications": [
+                77
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "English",
+                "Spanish"
+            ],
+            "Link": [
+                "https://www.yes.state.nm.us/",
+                "https://www.hsd.state.nm.us/lookingforassistance/apply-for-benefits/",
+                "https://www.hsd.state.nm.us/lookingforassistance/apply-for-benefits/"
+            ],
+            "snapdata": [
+                75
+            ],
+            "statesnapprogram": [
+                76
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Montana Access Card"
+            ],
+            "snapdata": [
+                78
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Montana",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://dphhs.mt.gov/hcsd/SNAP",
+            "StateEBTInfo": "https://www.mybnft.com",
+            "state_snap_program_name": [
+                79
+            ],
+            "applications": [
+                80
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://apply.mt.gov/"
+            ],
+            "snapdata": [
+                78
+            ],
+            "statesnapprogram": [
+                79
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Nebraska EBT Card"
+            ],
+            "snapdata": [
+                81
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Nebraska",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://dhhs.ne.gov/Pages/SNAP.aspx",
+            "StateEBTInfo": "http://dhhs.ne.gov/Pages/EBT.aspx",
+            "state_snap_program_name": [
+                82
+            ],
+            "applications": [
+                83
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "English",
+                "Spanish"
+            ],
+            "Link": [
+                "http://accessnebraska.ne.gov/",
+                "http://public-dhhs.ne.gov/Forms/DisplayPDF.aspx?item=378",
+                "http://public-dhhs.ne.gov/Forms/DisplayPDF.aspx?item=379"
+            ],
+            "snapdata": [
+                81
+            ],
+            "statesnapprogram": [
+                82
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Minnesota EBT Card"
+            ],
+            "snapdata": [
+                84
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Minnesota",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://mn.gov/dhs/people-we-serve/adults/economic-assistance/food-nutrition/programs-and-services/supplemental-nutrition-assistance-program.jsp",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                85
+            ],
+            "applications": [
+                86
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "English",
+                "Spanish",
+                "Hmong Version",
+                "Somali Version",
+                "Vietnamese Version",
+                "Russian Version"
+            ],
+            "Link": [
+                "https://applymn.dhs.mn.gov/online-app-web/spring/public/process-login?execution=e1s1",
+                "https://edocs.dhs.state.mn.us/lfserver/Public/DHS-5223-ENG",
+                "https://edocs.dhs.state.mn.us/lfserver/Public/DHS-5223-SPA",
+                "https://edocs.dhs.state.mn.us/lfserver/Public/DHS-5223-HMN",
+                "https://edocs.dhs.state.mn.us/lfserver/Public/DHS-5223-RUS",
+                "https://edocs.dhs.state.mn.us/lfserver/Public/DHS-5223-VIE",
+                "https://edocs.dhs.state.mn.us/lfserver/Public/DHS-5223-RUS"
+            ],
+            "snapdata": [
+                84
+            ],
+            "statesnapprogram": [
+                85
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Mississippi EBT Card"
+            ],
+            "snapdata": [
+                87
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Mississippi",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.mdhs.ms.gov/economic-assistance/snap/",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                88
+            ],
+            "applications": [
+                89
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://www.ms.gov/mdhs/tanf_snap/Application/Start"
+            ],
+            "snapdata": [
+                87
+            ],
+            "statesnapprogram": [
+                88
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Stamp Program",
+                "Missouri EBT Card"
+            ],
+            "snapdata": [
+                90
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Missouri",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://mydss.mo.gov/food-assistance/apply-for-snap",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                91
+            ],
+            "applications": [
+                92
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "English"
+            ],
+            "Link": [
+                "https://formsportal.dss.mo.gov/content/forms/af/moa/my-dss/family-support-division/FS-1/fs-1.html",
+                "https://mydss.mo.gov/food-assistance/food-stamp-program"
+            ],
+            "snapdata": [
+                90
+            ],
+            "statesnapprogram": [
+                91
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Supplement Program",
+                "Independence Card"
+            ],
+            "snapdata": [
+                93
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Maryland",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://dhr.maryland.gov/food-supplement-program/",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                94
+            ],
+            "applications": [
+                95
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://mydhrbenefits.dhr.state.md.us/dashboardClient/#/register"
+            ],
+            "snapdata": [
+                93
+            ],
+            "statesnapprogram": [
+                94
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Massachusetts EBT Card"
+            ],
+            "snapdata": [
+                96
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Massachusetts",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.mass.gov/snap-benefits-food-stamps",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                97
+            ],
+            "applications": [
+                98
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "English",
+                "Spanish",
+                "Applications in Other Languages"
+            ],
+            "Link": [
+                "https://hhsvgapps01.hhs.state.ma.us/ierhome/LandingPage.do?method=displayConsumerHomePage&pageSwitch=HOME",
+                "https://www.mass.gov/doc/english-17/download",
+                "https://www.mass.gov/doc/snap-benefit-application-espanol/download",
+                "https://www.mass.gov/lists/snap-benefits-application"
+            ],
+            "snapdata": [
+                96
+            ],
+            "statesnapprogram": [
+                97
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Assistance Program",
+                "Michigan Bridge Card"
+            ],
+            "snapdata": [
+                99
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Michigan",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.michigan.gov/mdhhs/0,5885,7-339-71547_5527---,00.html",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                100
+            ],
+            "applications": [
+                101
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://newmibridges.michigan.gov"
+            ],
+            "snapdata": [
+                99
+            ],
+            "statesnapprogram": [
+                100
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Assistance Program",
+                "Kansas Benefits\\xa0Card"
+            ],
+            "snapdata": [
+                102
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Kansas",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.dcf.ks.gov/services/ees/Pages/Food/FoodAssistance.aspx",
+            "StateEBTInfo": "http://www.ebtedge.com",
+            "state_snap_program_name": [
+                103
+            ],
+            "applications": [
+                104
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://cssp.kees.ks.gov/apspssp/sspNonMed.portal"
+            ],
+            "snapdata": [
+                102
+            ],
+            "statesnapprogram": [
+                103
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Kentucky EBT Card"
+            ],
+            "snapdata": [
+                105
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Kentucky",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://benefind.ky.gov/General/SnapOverview",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                106
+            ],
+            "applications": [
+                107
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "Other Languages"
+            ],
+            "Link": [
+                "https://benefind.ky.gov/",
+                "https://benefind.ky.gov/General/HardcopyApplication"
+            ],
+            "snapdata": [
+                105
+            ],
+            "statesnapprogram": [
+                106
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Louisiana Purchase Card"
+            ],
+            "snapdata": [
+                108
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Louisiana",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.dcfs.la.gov/index.cfm?md=pagebuilder&tmp=home&pid=93",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                109
+            ],
+            "applications": [
+                110
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://cafe-cp.dcfs.la.gov/selfservice/"
+            ],
+            "snapdata": [
+                108
+            ],
+            "statesnapprogram": [
+                109
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Supplement Program",
+                "Maine EBT Card"
+            ],
+            "snapdata": [
+                111
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Maine",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.maine.gov/dhhs/ofi/programs-services/food-supplement",
+            "StateEBTInfo": "https://www.pinetreecard.com/meebtclient/",
+            "state_snap_program_name": [
+                112
+            ],
+            "applications": [
+                113
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "English"
+            ],
+            "Link": [
+                "https://www1.maine.gov/benefits/account/login.html",
+                "http://www.maine.gov/dhhs/ofi/public-assistance/"
+            ],
+            "snapdata": [
+                111
+            ],
+            "statesnapprogram": [
+                112
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Stamps",
+                "Idaho Quest Card"
+            ],
+            "snapdata": [
+                114
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Idaho",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://healthandwelfare.idaho.gov/services-programs/food-assistance/about-snap",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                115
+            ],
+            "applications": [
+                116
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Apply for SNAP"
+            ],
+            "Link": [
+                "https://publicdocuments.dhw.idaho.gov/WebLink/Browse.aspx?id=3170&dbid=0&repo=PUBLIC-DOCUMENTS"
+            ],
+            "snapdata": [
+                114
+            ],
+            "statesnapprogram": [
+                115
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Illinois Link Card"
+            ],
+            "snapdata": [
+                117
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Illinois",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.dhs.state.il.us/page.aspx?item=30357",
+            "StateEBTInfo": "http://www.link.illinois.gov/",
+            "state_snap_program_name": [
+                118
+            ],
+            "applications": [
+                119
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://abe.illinois.gov/abe/access/"
+            ],
+            "snapdata": [
+                117
+            ],
+            "statesnapprogram": [
+                118
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Hoosier Works Card"
+            ],
+            "snapdata": [
+                120
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Indiana",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.in.gov/fssa/dfr/2691.htm",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                121
+            ],
+            "applications": [
+                122
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://fssabenefits.in.gov/CitizenPortal/application.do"
+            ],
+            "snapdata": [
+                120
+            ],
+            "statesnapprogram": [
+                121
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Assistance",
+                "Iowa EBT Card"
+            ],
+            "snapdata": [
+                123
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Iowa",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://dhs.iowa.gov/food-assistance",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                124
+            ],
+            "applications": [
+                125
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://dhsservices.iowa.gov/apspssp/ssp.portal"
+            ],
+            "snapdata": [
+                123
+            ],
+            "statesnapprogram": [
+                124
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Assistance Program",
+                "ACCESS card"
+            ],
+            "snapdata": [
+                126
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Florida",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.myflfamilies.com/services/public-assistance/supplemental-nutrition-assistance-program-snap",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                127
+            ],
+            "applications": [
+                128
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "English",
+                "Spanish",
+                "Krey\u00f2l Version"
+            ],
+            "Link": [
+                "http://www.myflorida.com/accessflorida/",
+                "https://eds.myflfamilies.com/DCFFormsInternet/Search/OpenDCFForm.aspx?FormId=645",
+                "https://eds.myflfamilies.com/DCFFormsInternet/Search/OpenDCFForm.aspx?FormId=647",
+                "https://eds.myflfamilies.com/DCFFormsInternet/Search/OpenDCFForm.aspx?FormId=646"
+            ],
+            "snapdata": [
+                126
+            ],
+            "statesnapprogram": [
+                127
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Georgia Food Stamp Program",
+                "Georgia EBT Card"
+            ],
+            "snapdata": [
+                129
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Georgia",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://dfcs.georgia.gov/snap-food-stamps",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                130
+            ],
+            "applications": [
+                131
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "English",
+                "Spanish"
+            ],
+            "Link": [
+                "https://dfcs.georgia.gov/document/document/snap-benefits-georgia/download",
+                "https://dfcs.georgia.gov/document/form/47rev09-20spanishpdf/download"
+            ],
+            "snapdata": [
+                129
+            ],
+            "statesnapprogram": [
+                130
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Guam EBT Card"
+            ],
+            "snapdata": [
+                132
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Guam",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://dphss.guam.gov/bureau-of-economic-security/",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                133
+            ],
+            "applications": [
+                134
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "English"
+            ],
+            "Link": [
+                "http://dphss.guam.gov/bes-how-to-apply/"
+            ],
+            "snapdata": [
+                132
+            ],
+            "statesnapprogram": [
+                133
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Chase U CARD"
+            ],
+            "snapdata": [
+                135
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Hawaii",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://humanservices.hawaii.gov/bessd/snap/",
+            "StateEBTInfo": "https://humanservices.hawaii.gov/bessd/ebt/",
+            "state_snap_program_name": [
+                136
+            ],
+            "applications": [
+                137
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "English"
+            ],
+            "Link": [
+                "http://humanservices.hawaii.gov/wp-content/uploads/2015/06/BESSD-Application_June-2015.pdf"
+            ],
+            "snapdata": [
+                135
+            ],
+            "statesnapprogram": [
+                136
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Connecticut EBT Card"
+            ],
+            "snapdata": [
+                138
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Connecticut",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://portal.ct.gov/DSS/SNAP/Supplemental-Nutrition-Assistance-Program---SNAP",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                139
+            ],
+            "applications": [
+                140
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://www.connect.ct.gov/access/jsp/access/Home.jsp"
+            ],
+            "snapdata": [
+                138
+            ],
+            "statesnapprogram": [
+                139
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Supplement Program",
+                "Delaware Food First"
+            ],
+            "snapdata": [
+                141
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Delaware",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.dhss.delaware.gov/dhss/dss/foodstamps.html",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                142
+            ],
+            "applications": [
+                143
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://assist.dhss.delaware.gov/"
+            ],
+            "snapdata": [
+                141
+            ],
+            "statesnapprogram": [
+                142
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "District of Columbia EBT Card"
+            ],
+            "snapdata": [
+                144
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "District of Columbia",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://dhs.dc.gov/snapinfo",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                145
+            ],
+            "applications": [
+                146
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "English",
+                "Spanish",
+                "Amharic Version"
+            ],
+            "Link": [
+                "https://dhs.dc.gov/sites/default/files/dc/sites/dhs/publication/attachments/Combined_Application_December-2015_%28English_%202_0.pdf",
+                "https://dhs.dc.gov/sites/default/files/dc/sites/dhs/publication/attachments/Combined_Application_December_2015-Spanish_0.pdf",
+                "https://dhs.dc.gov/sites/default/files/dc/sites/dhs/publication/attachments/Combined_Application_v42_Amharic_0_0.pdf"
+            ],
+            "snapdata": [
+                144
+            ],
+            "statesnapprogram": [
+                145
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "CalFresh",
+                "Golden State Advantage EBT Card"
+            ],
+            "snapdata": [
+                147
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "California",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://www.cdss.ca.gov/food-nutrition/calfresh",
+            "StateEBTInfo": "https://www.cdss.ca.gov/ebt-card",
+            "state_snap_program_name": [
+                148
+            ],
+            "applications": [
+                149
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://benefitscal.com/"
+            ],
+            "snapdata": [
+                147
+            ],
+            "statesnapprogram": [
+                148
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Colorado Quest Card"
+            ],
+            "snapdata": [
+                150
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Colorado",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://www.colorado.gov/pacific/cdhs/supplemental-nutrition-assistance-program-snap",
+            "StateEBTInfo": "https://login5.fisglobal.com/idp/EBTEdge_NCH/?client_id=EBTEdge_NCH_APIKey&redirect_uri=https%3A//cardholder.ebtedge.com/mobilev2/auth/callback/&scope=openid&response_type=code&code_challenge=fxlfMRQcYHj6Gdrbk_O9Dio0aJFQQrzE-sSazz1Al98%3D&code_challenge_method=S25",
+            "state_snap_program_name": [
+                151
+            ],
+            "applications": [
+                152
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application",
+                "English",
+                "Spanish",
+                "Large Print Version"
+            ],
+            "Link": [
+                "https://coloradopeak.secure.force.com/",
+                "https://drive.google.com/file/d/0BztoLK7fIWYlVXREYnZKSXhsQmNqSmhTMkdySXFpQTgyTmZn/view",
+                "https://drive.google.com/file/d/0BztoLK7fIWYlVFVYeWN4VWwybVFYWmhEOHpyUFBXcUEycm1v/view",
+                "https://drive.google.com/file/d/0B9eaXW7_92zSUHM1cC1sd3l4RE0/view"
+            ],
+            "snapdata": [
+                150
+            ],
+            "statesnapprogram": [
+                151
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Assistance Program ",
+                "Alabama EBT Card"
+            ],
+            "snapdata": [
+                153
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Alabama",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://dhr.alabama.gov/food-assistance/",
+            "StateEBTInfo": "https://www.connectebt.com",
+            "state_snap_program_name": [
+                154
+            ],
+            "applications": [
+                155
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://mydhr.alabama.gov/"
+            ],
+            "snapdata": [
+                153
+            ],
+            "statesnapprogram": [
+                154
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Food Stamp Program ",
+                "Alaska Quest Card"
+            ],
+            "snapdata": [
+                156
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Alaska",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "http://dhss.alaska.gov/dpa/Pages/SNAP/default.aspx",
+            "StateEBTInfo": "http://dhss.alaska.gov/dpa/pages/ebt/default.aspx",
+            "state_snap_program_name": [
+                157
+            ],
+            "applications": [
+                158
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "English"
+            ],
+            "Link": [
+                "http://dpaweb.hss.state.ak.us/e-forms/pdf/GEN-50C.pdf"
+            ],
+            "snapdata": [
+                156
+            ],
+            "statesnapprogram": [
+                157
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Nutrition Assistance ",
+                "Arizona Quest Card"
+            ],
+            "snapdata": [
+                159
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Arizona",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://des.az.gov/na",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                160
+            ],
+            "applications": [
+                161
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://www.healthearizonaplus.gov/Default/Default.aspx"
+            ],
+            "snapdata": [
+                159
+            ],
+            "statesnapprogram": [
+                160
+            ]
+        }
+    },
+    {
+        "model": "snap_app.StateSnapProgram",
+        "pk": null,
+        "fields": {
+            "StateSNAPProgramName": [
+                "Supplemental Nutrition Assistance Program (SNAP)",
+                "Arkansas EBT Card"
+            ],
+            "snapdata": [
+                162
+            ]
+        }
+    },
+    {
+        "model": "snap_app.SnapData",
+        "pk": null,
+        "fields": {
+            "Organization": "Arkansas",
+            "SubPrograms": "Supplemental Nutrition Assistance Program (SNAP)",
+            "SNAPWebsite": "https://humanservices.arkansas.gov/divisions-shared-services/county-operations/supplemental-nutrition-assistance-snap/",
+            "StateEBTInfo": "https://www.ebtedge.com",
+            "state_snap_program_name": [
+                163
+            ],
+            "applications": [
+                164
+            ]
+        }
+    },
+    {
+        "model": "snap_app.ApplicationInfo",
+        "pk": null,
+        "fields": {
+            "Description": [
+                "Online Application"
+            ],
+            "Link": [
+                "https://access.arkansas.gov/Learn/Home"
+            ],
+            "snapdata": [
+                162
+            ],
+            "statesnapprogram": [
+                163
+            ]
+        }
+    }
+]
